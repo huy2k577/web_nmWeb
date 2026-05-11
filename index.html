@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basketball Shoes - Bứt Phá Giới Hạn</title>
+    <!-- Font Awesome cho Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Link tới file CSS đã biên dịch từ SCSS -->
+    <link rel="stylesheet" href="SASS/index/style.css">
+    
+    <!-- Script JavaScript -->
+    <script src="js/product.js"></script>
+    <script src="js/auth.js"></script>
+    <script src="js/index.js"></script>
+</head>
+<body>
+
+    <!-- ================= SCENE 1: HEADER ================= -->
+    <header class="site-header">
+        <!-- 1.1 Header Top: Thanh điều hướng & Tiện ích -->
+        <div class="header-top">
+            <div class="container flex-layout">
+                <div class="logo">
+                    <i class="fas fa-basketball-ball"></i> Basketball shoes
+                </div>
+                <nav class="navigation">
+                    <a href="#">Trang chủ</a>
+                    <a href="product.html">Sản phẩm</a>
+                    <a href="contact.html">Liên hệ</a>
+                </nav>
+                <div class="header-tools">
+                    
+                    <a href="cart.html" class="cart">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+                    <div class="hotline">
+                        <i class="fas fa-phone-alt"></i>
+                        <span class="phone-number">0352332XXX</span>
+                    </div>
+                    <div class="account-area" id="accountArea">
+                       <a href="login.html" class="btn-login" id="accountBtn">
+                            Đăng nhập
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 1.2 Header Center: Banner Slogan -->
+        <div class="header-center">
+            <div class="container banner-inner">
+                <h1>BỨC PHÁ GIỚI HẠN<br>TRÊN MỖI SÂN ĐẤU</h1>
+                <p>Siêu tầm bộ sưu tập giày bóng rổ mới nhất từ Nike, Adidas, Under Armour và nhiều thương hiệu hàng đầu.</p>
+            </div>
+        </div>
+
+        <!-- 1.3 Header Bot: Thanh cam kết dịch vụ -->
+        <div class="header-bot">
+            <div class="container commitment-grid">
+                <div class="commit-item"><i class="fas fa-truck"></i> Giao hàng nhanh</div>
+                <div class="commit-item"><i class="fas fa-shield-alt"></i> Hàng chính hãng</div>
+                <div class="commit-item"><i class="fas fa-credit-card"></i> Thanh toán linh hoạt</div>
+                <div class="commit-item"><i class="fas fa-headset"></i> Hỗ trợ 24/7</div>
+            </div>
+        </div>
+    </header>
+
+    <!-- ================= SCENE 2: BODY ================= -->
+    <main class="container main-body-layout">
+
+        <section class="body-content">
+
+            <!-- TITLE -->
+            <div class="content-header">
+
+                <div class="title-block">
+
+                    <h3>Sản phẩm nổi bật</h3>
+
+                    <p>
+                        Top 6 sản phẩm bán chạy nhất
+                    </p>
+
+                </div>
+
+            </div>
+
+            <!-- PRODUCT LIST -->
+            <div
+                class="product-display-grid"
+                id="featured-products">
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- ================= SCENE 3: FOOTER ================= -->
+    <footer class="site-footer">
+        <div class="container footer-main-flex">
+            <!-- 3.1 Footer Left: Thông tin shop -->
+            <div class="footer-left-info">
+                <div class="footer-logo">
+                    <i class="fas fa-basketball-ball"></i> Basketball shoes
+                </div>
+                <p class="shop-description">Chuyên cung cấp giày bóng rổ chính hãng từ các thương hiệu hàng đầu thế giới.</p>
+            </div>
+
+            <!-- 3.2 Footer Right: Các cột liên kết -->
+            <div class="footer-right-links">
+                <div class="link-column">
+                    <h4>Chính sách</h4>
+                    <ul>
+                        <li><a href="#">Chính sách bảo vệ</a></li>
+                        <li><a href="#">Chính sách vận chuyển</a></li>
+                    </ul>
+                </div>
+                <div class="link-column">
+                    <h4>Hướng dẫn</h4>
+                    <ul>
+                        <li><a href="#">Hướng dẫn mua hàng</a></li>
+                        <li><a href="#">Thanh toán</a></li>
+                    </ul>
+                </div>
+                <div class="link-column">
+                    <h4>Liên hệ</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> xxx, Đường Cao Lỗ, Quận 8, TP.HCM</p>
+                    <p><i class="fas fa-phone"></i> 0352332XXX</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-tiktok"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
+</body>
+</html>

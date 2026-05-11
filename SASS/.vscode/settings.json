@@ -1,0 +1,11 @@
+{
+  "workbench.iconTheme": "material-icon-theme",
+  "files.autoSave": "afterDelay",
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "expanded",
+      "extensionName": ".css"
+      // "savePath": null => Bỏ dòng này để VS code tạo file css ngay thư mục chính
+    }
+  ]
+}

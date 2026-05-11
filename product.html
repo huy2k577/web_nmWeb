@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basketball Shoes - Bứt Phá Giới Hạn</title>
+    <!-- Font Awesome cho Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Link tới file CSS đã biên dịch từ SCSS -->
+    <link rel="stylesheet" href="SASS/product/product.css">
+    <!-- Script JavaScript -->
+    <script src="js/auth.js"></script>
+    <script src="js/product.js"></script>
+</head>
+<body>
+
+    <!-- ================= SCENE 1: HEADER ================= -->
+    <header class="site-header">
+        <!-- 1.1 Header Top: Thanh điều hướng & Tiện ích -->
+        <div class="header-top">
+            <div class="container flex-layout">
+                <div class="logo">
+                    <i class="fas fa-basketball-ball"></i> Basketball shoes
+                </div>
+                <nav class="navigation">
+                    <a href="index.html">Trang chủ</a>
+                    <a href="#">Sản phẩm</a>
+                    <a href="contact.html">Liên hệ</a>
+                </nav>
+                <div class="header-tools">
+                    <div class="search-container">
+                        <input type="text" placeholder="bạn cần tìm gì?">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <a href="cart.html" class="cart">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+                    <div class="hotline">
+                        <i class="fas fa-phone-alt"></i>
+                        <span class="phone-number">0352332XXX</span>
+                    </div>
+                    <div class="account-area" id="accountArea">
+                        <a href="login.html" class="btn-login">Đăng nhập</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 1.2 Header Center: Banner Slogan -->
+        
+    </header>
+
+    <!-- ================= SCENE 2: BODY ================= -->
+    <main class="container main-body-layout">
+        
+        <!-- 2.1 Body Left: Bộ lọc sản phẩm -->
+        <aside class="body-left-sidebar">
+
+            <div class="filter-container">
+
+                <div class="filter-header">
+                    <i class="fas fa-sliders-h"></i>
+                    Bộ lọc sản phẩm
+                </div>
+
+                <!-- PRICE -->
+                <div class="filter-group price-filter">
+
+                    <h4>Chọn mức giá</h4>
+
+                    <div class="checkbox-list">
+
+                        <label>
+                            <input
+                            type="checkbox"
+                            value="under-500">
+
+                            < 500.000 VND
+                        </label>
+
+                        <label>
+                            <input
+                            type="checkbox"
+                            value="over-500">
+
+                            >= 500.000 VND
+                        </label>
+
+                        <label>
+                            <input
+                            type="checkbox"
+                            value="over-1000">
+
+                            >= 1.000.000 VND
+                        </label>
+
+                        <label>
+                            <input
+                            type="checkbox"
+                            value="over-2000">
+
+                            >= 2.000.000 VND
+                        </label>
+
+                        <label>
+                            <input
+                            type="checkbox"
+                            value="over-3000">
+
+                            >= 3.000.000 VND
+                        </label>
+
+                    </div>
+
+                </div>
+
+
+                <!-- BRAND -->
+                <div class="filter-group brand-filter">
+
+                    <h4>Hãng</h4>
+
+                    <div class="checkbox-list">
+
+                        <label>
+                            <input
+                            type="checkbox"
+                            value="Nike">
+
+                            Nike
+                        </label>
+
+                        <label>
+                            <input
+                            type="checkbox"
+                            value="Adidas">
+
+                            Adidas
+                        </label>
+
+                        <label>
+                            <input
+                            type="checkbox"
+                            value="Under Armour">
+
+                            Under Armour
+                        </label>
+
+                        <label>
+                            <input
+                            type="checkbox"
+                            value="Air Jordan">
+
+                            Air Jordan
+                        </label>
+
+                    </div>
+
+                </div>
+
+
+                <!-- SIZE -->
+                <div class="filter-group size-filter">
+
+                    <h4>Size</h4>
+
+                    <div class="size-grid">
+                        <label>
+                            <input
+                            type="checkbox"
+                            value="38">
+                            38
+                        </label>
+                        <label>
+                            <input
+                            type="checkbox"
+                            value="39">
+
+                            39
+                        </label>
+                        <label>
+                            <input
+                            type="checkbox"
+                            value="40">
+
+                            40
+                        </label>
+                        <label>
+                            <input
+                            type="checkbox"
+                            value="41">
+
+                            41
+                        </label>
+                        <label>
+                            <input
+                            type="checkbox"
+                            value="42">
+
+                            42
+                        </label>
+                        <label>
+                            <input
+                            type="checkbox"
+                            value="43">
+
+                            43
+                        </label>
+                        <label>
+                            <input
+                            type="checkbox"
+                            value="44">
+
+                            44
+                        </label>
+                        <label>
+                            <input
+                            type="checkbox"
+                            value="45">
+
+                            45
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <!-- 2.2 Body Right: Khu vực hiển thị sản phẩm -->
+        <section class="body-right-content">
+            <!-- Right Top: Tiêu đề & Sắp xếp -->
+            <div class="content-header">
+             
+                <div class="action-block">
+                    <!-- Nút Bán chạy nhất -->
+                    <button id="btn-best-seller" class="btn-filter-action">
+                        <i class="fas fa-fire"></i> Bán chạy nhất
+                    </button>
+
+                    <!-- Dropdown sắp xếp giá -->
+                    <select id="sort-price" class="select-sort">
+                        <option value="default">Sắp xếp giá</option>
+                        <option value="cao-thap">Giá: Cao đến Thấp</option>
+                        <option value="thap-cao">Giá: Thấp đến Cao</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Right Bot: Danh sách sản phẩm (Render bằng JS) -->
+            <div class="product-display-grid" id="product-list">
+                <!-- Dữ liệu từ index.js sẽ được đổ vào đây -->
+            </div>
+        </section>
+    </main>
+
+    <!-- ================= SCENE 3: FOOTER ================= -->
+    <footer class="site-footer">
+        <div class="container footer-main-flex">
+            <!-- 3.1 Footer Left: Thông tin shop -->
+            <div class="footer-left-info">
+                <div class="footer-logo">
+                    <i class="fas fa-basketball-ball"></i> Basketball shoes
+                </div>
+                <p class="shop-description">Chuyên cung cấp giày bóng rổ chính hãng từ các thương hiệu hàng đầu thế giới.</p>
+            </div>
+
+            <!-- 3.2 Footer Right: Các cột liên kết -->
+            <div class="footer-right-links">
+                <div class="link-column">
+                    <h4>Chính sách</h4>
+                    <ul>
+                        <li><a href="#">Chính sách bảo vệ</a></li>
+                        <li><a href="#">Chính sách vận chuyển</a></li>
+                    </ul>
+                </div>
+                <div class="link-column">
+                    <h4>Hướng dẫn</h4>
+                    <ul>
+                        <li><a href="#">Hướng dẫn mua hàng</a></li>
+                        <li><a href="#">Thanh toán</a></li>
+                    </ul>
+                </div>
+                <div class="link-column">
+                    <h4>Liên hệ</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> xxx, Đường Cao Lỗ, Quận 8, TP.HCM</p>
+                    <p><i class="fas fa-phone"></i> 0352332XXX</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-tiktok"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
+</body>
+</html>

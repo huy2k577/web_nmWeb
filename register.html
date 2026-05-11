@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Đăng ký - Basketball Shoes</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="SASS/register/register.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+    <header class="site-header">
+
+        <!-- TOP -->
+        <div class="header-top">
+
+            <div class="container flex-layout">
+
+                <div class="logo">
+                    <i class="fas fa-basketball-ball"></i>
+                    Basketball shoes
+                </div>
+
+                <nav class="navigation">
+                    <a href="index.html">Trang chủ</a>
+                    <a href="product.html">Sản phẩm</a>
+                    <a href="contact.html">Liên hệ</a>
+                </nav>
+
+                <div class="header-tools">
+
+                    <div class="search-container">
+                        <input type="text" placeholder="Bạn cần tìm gì?">
+                        <i class="fas fa-search"></i>
+                    </div>
+
+                    <div class="cart">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+
+                    <div class="hotline">
+                        <i class="fas fa-phone-alt"></i>
+                        <span>0352332XXX</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- CENTER -->
+        <div class="header-center">
+
+            <div class="container banner-inner">
+
+                <h1>
+                    TẠO TÀI KHOẢN<br>
+                    BASKETBALL SHOES
+                </h1>
+
+                <p>
+                    Đăng ký tài khoản để lưu sản phẩm yêu thích,
+                    theo dõi đơn hàng và nhận ưu đãi độc quyền.
+                </p>
+
+            </div>
+
+        </div>
+
+        <!-- BOT -->
+        <div class="header-bot">
+
+            <div class="container commitment-grid">
+
+                <div class="commit-item">
+                    <i class="fas fa-truck"></i>
+                    Giao hàng nhanh
+                </div>
+
+                <div class="commit-item">
+                    <i class="fas fa-shield-alt"></i>
+                    Hàng chính hãng
+                </div>
+
+                <div class="commit-item">
+                    <i class="fas fa-credit-card"></i>
+                    Thanh toán linh hoạt
+                </div>
+
+                <div class="commit-item">
+                    <i class="fas fa-headset"></i>
+                    Hỗ trợ 24/7
+                </div>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <!-- ================= BODY ================= -->
+    <main class="register-page">
+
+        <div class="register-container">
+
+            <!-- LEFT -->
+            <div class="register-left">
+
+                <div class="register-badge">
+                    Thành viên mới
+                </div>
+
+                <h2>Gia nhập cộng đồng bóng rổ</h2>
+
+                <p>
+                    Tạo tài khoản để trải nghiệm hệ thống mua sắm
+                    chuyên nghiệp dành cho người yêu bóng rổ.
+                </p>
+
+                <div class="feature-list">
+
+                    <div class="feature-item">
+                        <i class="fas fa-check-circle"></i>
+                        Theo dõi đơn hàng nhanh chóng
+                    </div>
+
+                    <div class="feature-item">
+                        <i class="fas fa-check-circle"></i>
+                        Nhận thông báo khuyến mãi sớm
+                    </div>
+
+                    <div class="feature-item">
+                        <i class="fas fa-check-circle"></i>
+                        Lưu sản phẩm yêu thích
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- RIGHT -->
+            <div class="register-right">
+
+                <div class="form-header">
+
+                    <h3>Đăng ký tài khoản</h3>
+
+                    <p>
+                        Vui lòng nhập đầy đủ thông tin bên dưới
+                    </p>
+
+                </div>
+
+                <form id="registerForm">
+
+                    <div class="form-group">
+
+                        <label>Họ và tên</label>
+
+                        <input
+                            type="text"
+                            id="fullName"
+                            placeholder="Nguyễn Văn A"
+                        >
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <label>Email</label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            placeholder="example@gmail.com"
+                        >
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <label>Mật khẩu</label>
+
+                        <input
+                            type="password"
+                            id="password"
+                            placeholder="Nhập mật khẩu"
+                        >
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <label>Xác nhận mật khẩu</label>
+
+                        <input
+                            type="password"
+                            id="confirmPassword"
+                            placeholder="Nhập lại mật khẩu"
+                        >
+
+                    </div>
+
+                    <div
+                        class="success-message"
+                        id="successMessage"
+                    >
+                        Đăng ký thành công!
+                    </div>
+
+                    <button
+                        type="submit"
+                        class="btn-submit"
+                    >
+                        Đăng ký
+                    </button>
+
+                </form>
+
+                <div class="extra-actions">
+
+                    <a href="login.html">
+                        Đã có tài khoản? Đăng nhập
+                    </a>
+
+                    <a href="index.html">
+                        ← Quay lại trang chủ
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="site-footer">
+
+        <div class="container footer-main-flex">
+
+            <div class="footer-left-info">
+
+                <div class="footer-logo">
+                    <i class="fas fa-basketball-ball"></i>
+                    Basketball shoes
+                </div>
+
+                <p class="shop-description">
+                    Chuyên cung cấp giày bóng rổ chính hãng
+                    từ các thương hiệu hàng đầu thế giới.
+                </p>
+
+            </div>
+
+            <div class="footer-right-links">
+
+                <div class="link-column">
+
+                    <h4>Chính sách</h4>
+
+                    <ul>
+                        <li><a href="#">Chính sách bảo vệ</a></li>
+                        <li><a href="#">Chính sách vận chuyển</a></li>
+                    </ul>
+
+                </div>
+
+                <div class="link-column">
+
+                    <h4>Hướng dẫn</h4>
+
+                    <ul>
+                        <li><a href="#">Hướng dẫn mua hàng</a></li>
+                        <li><a href="#">Thanh toán</a></li>
+                    </ul>
+
+                </div>
+
+                <div class="link-column">
+
+                    <h4>Liên hệ</h4>
+
+                    <p>
+                        <i class="fas fa-map-marker-alt"></i>
+                        TP.HCM
+                    </p>
+
+                    <p>
+                        <i class="fas fa-phone"></i>
+                        0352332XXX
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+    <!-- JS -->
+    <script src="js/register.js"></script>
+
+</body>
+
+</html>
