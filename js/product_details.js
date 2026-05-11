@@ -379,9 +379,7 @@ function setupButtons() {
 
         showToast("Đã thêm vào giỏ hàng");
 
-        setTimeout(() => {
-            window.location.href = "cart.html";
-        }, 600);
+        
     });
 
     
