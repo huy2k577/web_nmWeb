@@ -432,7 +432,7 @@ function setupCheckout() {
             return;
         }
 
-        alert(`OK mua hàng: ${name} - ${phone} - ${payment}`);
+        alert(`Đặt Hàng Thành Công`);
 
         modal.classList.add("hidden");
     });
